@@ -56,7 +56,7 @@ def JSON_FORMAT():
                                 data=(json_string)
                                 )    
         def upload():
-                    client = pymongo.MongoClient("mongodb+srv://KPKAVIN:kasaan@cluster0.3bc5s5h.mongodb.net/?retryWrites=true&w=majority")
+                    client = pymongo.MongoClient("mongodb+srv://KPKAVIN:<password>@cluster0.3bc5s5h.mongodb.net/?retryWrites=true&w=majority")
                     db=client.Streamlit
                     db.st_col.insert_one(data)
                     st.success('Successfully uploaded to database')
