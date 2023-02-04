@@ -4,7 +4,7 @@ Next > Go to file > Open Folder > Create a new folder(in whichever location of y
 Then > file > New file > python file(e.g-name it as main.py)
 
 After opening a .py file,copy and paste the Twitter Scraping Project code.
-On line 59 of the code,retype the <password> to connect to your mongodb atlas database.
+On line 59 of the code,retype the password to connect to your mongodb atlas database.
 
 Now press ctrl+shift+P>python:select interpreter >python 3.11.1 64bit global 
 Now go to terminal > new terminal> 
